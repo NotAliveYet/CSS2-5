@@ -1,0 +1,599 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#heading {
+    max-width: 1920px;
+    width: 100%;
+    height: 72px;
+    padding: 12px 32px;
+    background: #FBF9FF;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#list {
+    display: inline-block;
+    max-width: 236px;
+    width: 100%;
+    margin-left: 500px;
+    margin-right: 420px;
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+#separator {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#contact_box {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #6941C6;
+    background: #6941C6;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#button_container {
+    max-width: 105px;
+    width: 100%;
+    display: inline-block;
+    text-wrap: nowrap;
+}
+
+
+
+
+#main_section {
+    max-width: 1440px;
+    width: 100%;
+    height: 3083px;
+    padding: 96px;
+    background: #F1E8FF;
+    margin: 106px auto 0 auto;
+}
+
+#pricing_container {
+    max-width: 1248px;
+    width: 100%;
+    height: 753px;
+    padding: 0px 32px;
+    margin-bottom: 64px;
+    vertical-align: middle;
+
+}
+
+#pricing_box {
+    max-width: 768px;
+    width: 100%;
+    height: 132px;
+    margin: 0 auto;
+}
+
+#pricing_h {
+    font-family: Inter;
+    text-align: center;
+    color: #181D27;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+#simple {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+#lowtier_container {
+    max-width: 373px;
+    width: 100%;
+    height: 589px;
+    border-radius: var(--radius-2xl, 16px);
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    margin-top: 32px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.basic_box {
+    width: fit-content;
+    height: 28px;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#basic_text {
+    color: #6941C6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 4px 12px;
+    text-wrap: nowrap;
+}
+
+.price_box {
+    max-width: 309px;
+    width: 100%;
+    height: 92px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.popular_p {
+    margin-top: 8px;
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.price_h {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+}
+
+.buttons_div {
+    max-width: 309px;
+    width: 100%;
+    height: 108px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.started_button {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    padding: 12px 18px;
+    max-width: 309px;
+    width: 100%;
+    height: 48px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.chat_button {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 12px 18px;
+    max-width: 309px;
+    width: 100%;
+    height: 48px;
+    color: #414651;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+
+
+/* MAKE THE LINE SMALLER  */
+
+
+.check_box {
+    max-width: 373px;
+    width: 100%;
+    height: 257px;
+    border-top: 2px solid #E9EAEB;
+    margin-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 40px;
+    padding-top: 33px;
+    display: inline-block;
+}
+
+.checkbox_logo {
+    vertical-align: middle;
+    padding-top: 16px;
+}
+
+.access_p {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+    padding-top: 16px;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.middle_container {
+    max-width: 373px;
+    width: 100%;
+    height: 589px;
+    border-radius: var(--radius-2xl, 16px);
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    margin-top: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#buisness_text {
+    color: #6941C6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 4px 12px;
+    text-wrap: nowrap;
+    max-width: 117px;
+    width: 100%;
+    height: 28px;
+}
+
+#enterprise_text {
+    color: #6941C6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 4px 12px;
+    text-wrap: nowrap;
+    max-width: 125px;
+    width: 100%;
+    height: 28px;
+}
+
+#frequently_container {
+    max-width: 1248px;
+    width: 100%;
+    height: 1252px;
+    padding: 32px 0px;
+    border-radius: 24px;
+    background: #FFF;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+#frequent_div {
+    max-width: 768px;
+    width: 100%;
+    height: 92px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#frequent_h {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+#frequent_p {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+#faq_box {
+    max-width: 768px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 16px;
+    background: #E4E4E4;
+    height: 168px;
+    margin: 0 auto;
+}
+
+#free_p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    color: #181D27;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#arrow {
+    vertical-align: middle;
+    margin-right: 24px;
+
+}
+
+#yes_p {
+    margin: 0 auto;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    vertical-align: middle;
+    margin-left: 48px;
+    margin-top: 8px;
+}
+
+#plan_box {
+    max-width: 768px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 16px;
+    border: 2px solid #FF2323;
+    background: #FFE5E5;
+    height: 168px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+#policy_box {
+    max-width: 768px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 16px;
+    background: #E9D7FF;
+    height: 168px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+#invoice_box {
+    max-width: 768px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 16px;
+    background: #F7F4FF;
+    height: 168px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+
+#billing_box {
+    border-radius: 16px;
+    border: 4px solid #326DFF;
+    background: #DCE6FF;
+    max-width: 768px;
+    width: 100%;
+    padding: 32px;
+    height: 168px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+#account_box {
+    background: #FFD5E7;
+    max-width: 768px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 16px;
+    height: 168px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+#review_container {
+    max-width: 1248px;
+    height: 1252px;
+    background: #fff;
+    border-radius: 24px;
+    margin-top: 64px;
+    padding: 32px 0px;
+}
+
+#reviews_box {
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#review_h {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.8px;
+}
+
+
+#review_p {
+    color: #535862;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#photos_box {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0px 32px;
+    margin-top: 64px;
+
+}
+
+.first_photo {
+    max-width: 580px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    padding: 32px;
+    min-width: 480px;
+    min-height: 256px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sienna_p {
+    color: #181D27;
+    font-family: Inika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.warpspeed {
+    max-width: 516px;
+    width: 100%;
+    height: 54px;
+    margin-top: 80px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#odealabs {
+    max-width: 516px;
+    width: 100%;
+    height: 54px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.sienna_hewitt {
+    display: inline-block;
+    vertical-align: middle;
+    color: #181D27;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.sienna_picture {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.project {
+    vertical-align: middle;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.aligner {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+.tick {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+#warpspeed_logo {
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+
+.text_avatar {
+    max-width: 370px;
+    vertical-align: middle;
+}
+
+.odealabs_logo {
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-left: 180px;
+
+}
+
+#quartz_logo {
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-left: 140px;
+}
